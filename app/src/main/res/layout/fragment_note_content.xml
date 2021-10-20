@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoteContentFragment">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="@color/purple_200"
+        android:text="@string/textview"/>
+
+    <EditText
+        android:id="@+id/content_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/content"
+        android:inputType="text" />
+
+</LinearLayout>
